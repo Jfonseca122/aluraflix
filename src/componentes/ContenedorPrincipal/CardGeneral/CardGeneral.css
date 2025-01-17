@@ -1,0 +1,44 @@
+.card-general {
+    border: 3px solid; /* Color definido dinámicamente */
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px; /* Ajustar según necesidad */
+    text-align: center;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .edit-button {
+    background-color: blue;
+    color: white;
+  }
+  
