@@ -6,7 +6,7 @@ import NuevoVideo from "./pages/NuevoVideo";
 import { useState, useEffect } from "react";
 import Swal from "sweetalert2";
 import PageNotFound from "./pages/PageNoFound";
-import EditarModal from "./editarCategoria.jsx";
+import EditarModal from "./componentes/EditarCategoria/index.jsx";
 import Footer from "./componentes/Footer/index.jsx";
 
 const FondoGlobal = styled.div`
